@@ -1,0 +1,45 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f6f8fa;
+    }
+
+    form {
+      margin-bottom: 1rem;
+    }
+
+    input {
+      padding: 0.5rem;
+      width: 250px;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      margin-left: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    .mensaje {
+      margin-top: 1rem;
+      font-style: italic;
+      color: #777;
+    }
