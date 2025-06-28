@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Búsqueda de Usuarios</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Buscar usuarios</h1>
+
+  <form id="formulario">
+    <input type="text" id="busqueda" placeholder="Nombre o usuario..." />
+    <button type="submit">Buscar</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Usuario</th>
+        <th>Email</th>
+        <th>Ciudad</th>
+      </tr>
+    </thead>
+    <tbody id="contenidoTabla"></tbody>
+  </table>
+
+  <p class="mensaje" id="mensajeEstado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
