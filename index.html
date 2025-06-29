@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <title>Búsqueda de Usuarios</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Buscar usuarios</h1>
 
+  <!-- ------------- FORMULARIO ------------- -->
   <form id="formulario">
-    <input type="text" id="busqueda" placeholder="Nombre o usuario..." />
+    <input type="text" id="busqueda" placeholder="Nombre o usuario…" />
+
+    <select id="ciudad">
+      <option value="">— Todas las ciudades —</option>
+    </select>
+
     <button type="submit">Buscar</button>
+    <span id="mensajeEstado" class="mensaje"></span>
   </form>
 
+  <!-- ------------- TABLA ------------- -->
   <table>
     <thead>
       <tr>
-        <th>#</th>
-        <th>Nombre</th>
-        <th>Usuario</th>
-        <th>Email</th>
-        <th>Ciudad</th>
+        <th>#</th><th>Nombre</th><th>Usuario</th><th>Email</th><th>Ciudad</th>
       </tr>
     </thead>
     <tbody id="contenidoTabla"></tbody>
   </table>
-
-  <p class="mensaje" id="mensajeEstado"></p>
 
   <script src="script.js"></script>
 </body>
